@@ -36,7 +36,7 @@ const destination = mongoose.Schema({
 
     },
     category:{
-      type: String,
+      type: [String],
       default: [name.split()]
     }
 
